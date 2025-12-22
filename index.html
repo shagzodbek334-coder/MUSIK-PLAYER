@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIK-PLAYER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="snow"></div>
+    <div id="snow-container"></div>
+
+    <div class="hero">
+        <div class="contaienr">
+            <div class="row">
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="h4">
+                    <h3>Playlist</h3>
+                </div>
+                <div class="icon2">
+                    <i class="fa-solid fa-align-right"></i>
+                </div>
+
+
+
+            </div>
+            <div class="div_img">
+                <img class="img" src="./musicimg/bratu.jpg" alt="">
+            </div>
+            <div class="song_info">
+                <h2 class="text1">BRATU</h2>
+            </div>
+            <div class="player">
+
+                <audio class="audio" src="./music/bratu.mp3"></audio>
+            </div>
+            <div class="bar"><span></span></div>
+            <div class="time">
+                <div class="cuuruntTime"> 05:10</div>
+                <div class="cuuruntTime">05:10</div>
+            </div>
+
+            <div class="stop_skip">
+                <button class="orkaga"><i class="fa-solid fa-backward"></i></button>
+                <button class="play"><i class="fa-solid fa-play" id="playBtn"></i></button>
+                <button class="oldinga"><i class="fa-solid fa-forward"></i></button>
+            </div>
+            <div class="volme">
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
